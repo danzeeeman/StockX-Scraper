@@ -13,7 +13,7 @@ from requests.exceptions import ConnectionError, ChunkedEncodingError
 BRANDS = ['nike','jordan','adidas','other']
 
 #load overall.json as global DATA
-with open('overall.json') as file:
+with open('total.json') as file:
     DATA = json.load(file)
 
 def tsplit(string, delimiters):
